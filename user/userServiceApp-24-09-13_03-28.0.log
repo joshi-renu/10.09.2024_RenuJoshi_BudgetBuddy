@@ -1,0 +1,3 @@
+24-09-13 03:28:29.415 [http-nio-8080-exec-5] INFO  c.b.cloud.app.service.UserService - User 3 fetched!
+24-09-13 03:28:44.957 [http-nio-8080-exec-9] INFO  c.b.cloud.app.service.UserService - User 1 fetched!
+24-09-13 03:28:56.524 [http-nio-8080-exec-10] INFO  c.b.cloud.app.service.UserService - User 2 fetched!

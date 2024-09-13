@@ -1,0 +1,53 @@
+24-09-12 19:59:31.191 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.1.Final
+24-09-12 19:59:31.261 [main] INFO  c.b.cloud.app.UserApplication - Starting UserApplication using Java 21.0.4 with PID 18576 (C:\Users\rejoshi\Desktop\Java Training\SpringBoot\BudgetBuddy\user\target\classes started by rejoshi in C:\Users\rejoshi\Desktop\Java Training\SpringBoot\BudgetBuddy\user)
+24-09-12 19:59:31.263 [main] INFO  c.b.cloud.app.UserApplication - No active profile set, falling back to 1 default profile: "default"
+24-09-12 19:59:32.069 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+24-09-12 19:59:32.242 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 165 ms. Found 2 JPA repository interfaces.
+24-09-12 19:59:32.492 [main] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=35e69d73-788a-3c75-a596-eb13e853ceeb
+24-09-12 19:59:32.634 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+24-09-12 19:59:32.637 [main] WARN  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+24-09-12 19:59:32.884 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+24-09-12 19:59:32.894 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+24-09-12 19:59:32.897 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+24-09-12 19:59:32.897 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.28]
+24-09-12 19:59:33.014 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+24-09-12 19:59:33.014 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1689 ms
+24-09-12 19:59:33.183 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+24-09-12 19:59:33.239 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+24-09-12 19:59:33.270 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+24-09-12 19:59:33.592 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+24-09-12 19:59:33.629 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+24-09-12 19:59:34.003 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b64f771
+24-09-12 19:59:34.005 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+24-09-12 19:59:34.068 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+24-09-12 19:59:34.069 [main] WARN  org.hibernate.orm.deprecation - HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+24-09-12 19:59:35.249 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+24-09-12 19:59:35.371 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+24-09-12 19:59:35.682 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+24-09-12 19:59:36.208 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+24-09-12 19:59:36.241 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+24-09-12 19:59:36.277 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+24-09-12 19:59:36.301 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+24-09-12 19:59:36.306 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+24-09-12 19:59:36.314 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+24-09-12 19:59:36.314 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+24-09-12 19:59:36.315 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+24-09-12 19:59:36.315 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+24-09-12 19:59:36.315 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+24-09-12 19:59:36.315 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+24-09-12 19:59:36.315 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+24-09-12 19:59:36.692 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+24-09-12 19:59:36.694 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+24-09-12 19:59:36.696 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+24-09-12 19:59:36.698 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1726151376698 with initial instances count: 3
+24-09-12 19:59:36.702 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application USER-SERVICE with eureka with status UP
+24-09-12 19:59:36.702 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1726151376702, current=UP, previous=STARTING]
+24-09-12 19:59:36.704 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+24-09-12 19:59:36.705 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-SERVICE/USGURREJOSHI4.us.deloitte.com:user-service:8080: registering service...
+24-09-12 19:59:36.731 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+24-09-12 19:59:36.732 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8080
+24-09-12 19:59:36.744 [main] INFO  c.b.cloud.app.UserApplication - Started UserApplication in 5.964 seconds (process running for 6.725)
+24-09-12 19:59:36.747 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-SERVICE/USGURREJOSHI4.us.deloitte.com:user-service:8080 - registration status: 204
+24-09-12 19:59:51.673 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-09-12 19:59:51.674 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+24-09-12 19:59:51.675 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms

@@ -1,0 +1,25 @@
+server:
+  port: 9090
+
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: user-service
+          uri: lb://USER-SERVICE
+          predicates:
+            - Path=/api/user/**
+        - id: expenseTracker-service
+          uri: lb://EXPENSETRACKER-SERVICE
+          predicates:
+            - Path=/api/trackExpense/**
+        - id: budgetPlanner-service
+          uri: lb://BUDGETPLANNER-SERVICE
+          predicates:
+            - Path=/api/budgetPlan/**
+        - id: alerts-service
+          uri: lb://ALERTS-SERVICE
+          predicates:
+            - Path=/api/alert/**

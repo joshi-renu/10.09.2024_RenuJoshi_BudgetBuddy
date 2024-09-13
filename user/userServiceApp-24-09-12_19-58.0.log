@@ -1,0 +1,31 @@
+24-09-12 19:58:00.662 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+24-09-12 19:58:00.779 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+24-09-12 19:58:01.058 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+24-09-12 19:58:01.559 [main] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+24-09-12 19:58:01.596 [main] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+24-09-12 19:58:01.636 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+24-09-12 19:58:01.662 [main] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+24-09-12 19:58:01.667 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+24-09-12 19:58:01.676 [main] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+24-09-12 19:58:01.686 [main] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+24-09-12 19:58:01.686 [main] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+24-09-12 19:58:01.686 [main] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+24-09-12 19:58:01.686 [main] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+24-09-12 19:58:01.686 [main] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+24-09-12 19:58:01.686 [main] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+24-09-12 19:58:02.074 [main] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+24-09-12 19:58:02.076 [main] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+24-09-12 19:58:02.078 [main] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+24-09-12 19:58:02.080 [main] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1726151282079 with initial instances count: 3
+24-09-12 19:58:02.083 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application USER-SERVICE with eureka with status UP
+24-09-12 19:58:02.084 [main] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1726151282084, current=UP, previous=STARTING]
+24-09-12 19:58:02.085 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+24-09-12 19:58:02.086 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-SERVICE/USGURREJOSHI4.us.deloitte.com:user-service:8080: registering service...
+24-09-12 19:58:02.115 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+24-09-12 19:58:02.117 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8080
+24-09-12 19:58:02.127 [main] INFO  c.b.cloud.app.UserApplication - Started UserApplication in 5.625 seconds (process running for 6.421)
+24-09-12 19:58:02.129 [DiscoveryClient-InstanceInfoReplicator-%d] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_USER-SERVICE/USGURREJOSHI4.us.deloitte.com:user-service:8080 - registration status: 204
+24-09-12 19:58:07.656 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-09-12 19:58:07.657 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+24-09-12 19:58:07.658 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+24-09-12 19:58:18.638 [http-nio-8080-exec-2] INFO  c.b.cloud.app.service.UserService - User created successfully
