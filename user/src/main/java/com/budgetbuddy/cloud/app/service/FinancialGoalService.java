@@ -55,7 +55,7 @@ public class FinancialGoalService {
             return new ResponseEntity<>(convertFinancialGoalToResponse(financialGoalRepository.save(fg)), HttpStatus.OK);
 
         } else {
-            throw new UserNotFoundException("User "+userId+" does not exist with this "+goalId);
+            throw new UserNotFoundException("User "+userId+" doesn't exist with this "+goalId);
         }
 
     }
