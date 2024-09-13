@@ -88,6 +88,7 @@ public class FinancialGoalService {
         fg.setCurrAmount(fgReq.getCurrAmount());
         fg.setMonthYear(fgReq.getMonthYear());
         fg.setUser(user);
+
         return fg;
     }
 
