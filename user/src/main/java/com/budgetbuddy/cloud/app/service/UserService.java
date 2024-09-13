@@ -62,16 +62,16 @@ public class UserService {
     }
 
     public List<UserRequest> getAllUsers() {
-      return userRepository.findAll()
-              .stream()
-              .map(x->
-              {
-                  UserRequest ur = new UserRequest();
-                  ur.setUserName(x.getUserName());
-                  ur.setEmail(x.getEmail());
-                  return ur;
-              })
-              .collect(Collectors.toList());
+        return userRepository.findAll()
+                .stream()
+                .map(x ->
+                {
+                    UserRequest ur = new UserRequest();
+                    ur.setUserName(x.getUserName());
+                    ur.setEmail(x.getEmail());
+                    return ur;
+                })
+                .collect(Collectors.toList());
     }
 
     public ResponseEntity<UserResponse> updateUser(@Positive int id, @Valid UserRequest userReq) {
@@ -84,6 +84,7 @@ public class UserService {
         log.info("User {} updated successfully!", id);
         return new ResponseEntity<>(convertToUserResponse(userRepository.save(user),bplist, fglist),HttpStatus.OK);
     }
+
 
     public String deleteUserById(@Positive int id) {
         String username = userRepository.findById(id)
